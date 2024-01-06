@@ -39,9 +39,9 @@ main {
   align-items: center;
 }
 .header_content {
-  width: 45%;
+  width: 55%;
   text-align: right;
-  padding: 0px 36px;
+  padding: 0px 96px;
 }
 .header_content h1 {
   color: #151414;
@@ -63,6 +63,10 @@ main {
   background: #f15b22;
   padding: 10px 26px;
   border: none;
+}
+.btn{
+  display: flex;
+ justify-content: right;
 }
 /*  My failures of previous year */
 .list {
