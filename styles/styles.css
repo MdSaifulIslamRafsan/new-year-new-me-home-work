@@ -1,0 +1,41 @@
+/* common css */
+* {
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+.description {
+  color:#444343;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* header style */
+.header {
+  background: url("../images/banner/banner1.png");
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.header_content {
+  width: 45%;
+  text-align: right;
+  padding: 0px 36px;
+}
+.header_content h1 {
+  color: #151414;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.Contact-btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  background: #f15b22;
+  padding: 10px 26px;
+  border: none;
+}
