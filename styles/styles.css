@@ -10,13 +10,16 @@
   line-height: 26px;
 }
 .section-title {
-  color:#151414;
+  color: #151414;
   font-size: 40px;
   font-weight: 700;
 }
-main{
+main {
   width: 1000px;
   margin: 100px auto;
+}
+.text-center {
+  text-align: center;
 }
 /* header style */
 .header {
@@ -64,8 +67,23 @@ main{
 .list li {
   list-style-image: url("../images/icons/check.png");
 }
-.my-previous-year{
+.my-previous-year {
   display: flex;
   align-items: center;
   gap: 50px;
+  margin: 100px 0px;
+}
+.card-title {
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.card{
+  display: flex;
+  justify-content: space-around;
+}
+.card-img{
+ display: flex;
+ justify-content: center;
 }
