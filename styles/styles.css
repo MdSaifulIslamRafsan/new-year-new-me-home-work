@@ -15,7 +15,7 @@
   font-weight: 700;
 }
 main {
-  width: 1000px;
+  max-width: 1000px;
   margin: 100px auto;
 }
 .text-center {
@@ -110,11 +110,12 @@ main {
   color: #fff;
   font-size: 40px;
   font-weight: 700;
-  width: 450px;
+  max-width: 450px;
 }
 .bg-color {
   border-radius: 8px;
-  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  /* background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%); */
+  background-image: url('../images/gradient2.png');
   padding: 40px;
   border-radius: 10px;
 }
@@ -124,7 +125,7 @@ main {
   background-color: #151414;
 }
 .footer section{
-  width: 1000px;
+  max-width: 1000px;
   height: 577px;
   margin: auto;
   display: flex;
@@ -157,4 +158,132 @@ main {
 }
 .footer_right input {
   padding: 20px 40px;
+}
+.social-icon a{
+  margin-right: 20px;
+}
+
+/* small device media query */
+@media screen and (max-width: 576px){
+  .header_content {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .btn{
+    justify-content: center;
+  }
+  .header_content h1 {
+    font-size: 45px;
+  }
+  .section-title{
+    font-size: 30px;
+  }
+  .Contact-btn{
+    margin-bottom: 20px;
+  }
+  .my-previous-year{
+    flex-direction: column;
+  }
+  .my-previous-year{
+    padding: 20px;
+  }
+  .previous_year_img img{
+    width: 100%;
+  }
+  .card{
+    flex-direction: column;
+  }
+
+  .footer section{
+    flex-direction: column;
+    height: auto;
+    padding: 30px;
+  }
+  .footer_right input , button{
+    display: inline;
+  }
+  .footer_left , .footer_right{
+    width: 100%;
+  }
+}
+/* medium device media query */
+@media screen and (min-width: 576px) and (max-width: 768px){
+  .header_content {
+    width: 100%;
+    padding: 0px 30px;
+  }
+  .btn{
+    justify-content: center;
+  }
+  
+  .Contact-btn{
+    margin-bottom: 20px;
+  }
+  .my-previous-year{
+    flex-direction: column;
+  }
+  .my-previous-year{
+    padding: 40px;
+  }
+  .previous_year_img img{
+    width: 100%;
+  }
+  .card{
+    flex-direction: column;
+  }
+  .header_content h1 {
+    font-size: 50px;
+  }
+  .section-title{
+    font-size: 35px;
+  }
+  .footer section{
+    flex-direction: column;
+    height: auto;
+    padding: 40px;
+  }
+  .footer_right input , button{
+    display: inline;
+  }
+  .footer_left , .footer_right{
+    width: 100%;
+  }
+}
+/* tablet device media query */
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .header_content {
+    width: 70%;
+    padding: 0px 90px;
+  }
+
+  .Contact-btn{
+    margin-bottom: 20px;
+  }
+  .previous_year_img , .previous_year_content{
+    width: 50%;
+  }
+  .my-previous-year{
+    padding: 20px;
+  }
+  .previous_year_img img{
+    width: 100%;
+  }
+  .card-title {
+    font-size: 25px;
+  }
+  .header_content h1 {
+    font-size: 55px;
+  }
+  .footer section{
+    padding: 50px;
+  }
+}
+/* Desktop device media query */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+  .header_content h1 {
+    font-size: 50px;
+  }
+  .footer section{
+    padding: 60px;
+  }
 }
